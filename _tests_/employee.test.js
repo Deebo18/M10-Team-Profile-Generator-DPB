@@ -19,7 +19,7 @@ describe('Employee', () => {
     test('gets employee id', () => {
         const employee = new Employee('Dean', '007', 'dpb@gmail.com');
     
-        expect(employee.getId()).toEqual(expect.any(number));
+        expect(employee.getId()).toEqual(expect.any(Number));
     });
     // Gets employees name from getName()
     test('gets employee name', () => {
